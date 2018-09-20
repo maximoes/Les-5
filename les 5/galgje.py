@@ -1,4 +1,4 @@
-woord = ('bosbessentaart,B')
+woord = ('bosbessentaart')
 vraag = str(input('welke letter komt er in voor? '))
 if vraag in woord:
     print('klopt!')
@@ -7,12 +7,13 @@ else:
     print('Helaas, blijf proberen')
 
 
-str(input('welke letter komt er in voor? '))
+vraag = str(input('welke letter komt er in voor? '))
 if vraag in woord:                                   
     print('klopt!')                                  
                                                      
 else:                                                
-    print('Helaas, blijf proberen')                  
+    print('Helaas, blijf proberen')
+
 
 
 
