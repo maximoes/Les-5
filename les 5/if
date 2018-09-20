@@ -1,0 +1,10 @@
+temp = int(input('Enter the current temperature: '))
+
+hitte = 86
+
+if temp > hitte:
+
+    print('It is hot!')
+    print('Be sure to drink liquids.')
+
+print('goodbye')
